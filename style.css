@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    font-family: poppins;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, .3);
+    padding: 28px;
+    border-radius: 7px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    width: 80%;
+    margin: 10px;
+    max-width: 450px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 28px;
+}
+
+.input {
+    height: 53px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .6);
+    border-color: rgba(255, 255, 255, .4);
+    font-size: 16px;
+    padding: 0 42px;
+    margin: 15px 0;
+}
+
+.meaning-container {
+    display: none;
+    margin: 10px 0;
+}
+
+#title {
+    font-weight: 400;
+}
+
+#meaning {
+    font-weight: 400;
+}
+
+#example {
+    font-weight: 400;
+}
+
+.meaning-container .mean {
+    margin: 10px 0;
+}
+
+.meaning-container audio {
+    margin-top: 20px;
+}
+
+.info-text span {
+    color: red;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%);
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .9)
+}
